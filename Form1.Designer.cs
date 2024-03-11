@@ -30,8 +30,9 @@
         {
             label1 = new Label();
             txtUserName = new TextBox();
-            txtMatKhau = new TextBox();
+            txtpassword = new TextBox();
             label2 = new Label();
+            btnlogin = new Button();
             SuspendLayout();
             // 
             // label1
@@ -50,12 +51,12 @@
             txtUserName.Size = new Size(125, 27);
             txtUserName.TabIndex = 1;
             // 
-            // txtMatKhau
+            // txtpassword
             // 
-            txtMatKhau.Location = new Point(434, 125);
-            txtMatKhau.Name = "txtMatKhau";
-            txtMatKhau.Size = new Size(125, 27);
-            txtMatKhau.TabIndex = 3;
+            txtpassword.Location = new Point(434, 125);
+            txtpassword.Name = "txtpassword";
+            txtpassword.Size = new Size(125, 27);
+            txtpassword.TabIndex = 3;
             // 
             // label2
             // 
@@ -64,14 +65,24 @@
             label2.Name = "label2";
             label2.Size = new Size(70, 20);
             label2.TabIndex = 2;
-            label2.Text = "Mật khẩu";
+            label2.Text = "Password";
+            // 
+            // btnlogin
+            // 
+            btnlogin.Location = new Point(447, 247);
+            btnlogin.Name = "btnlogin";
+            btnlogin.Size = new Size(94, 29);
+            btnlogin.TabIndex = 4;
+            btnlogin.Text = "button1";
+            btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(959, 523);
-            Controls.Add(txtMatKhau);
+            Controls.Add(btnlogin);
+            Controls.Add(txtpassword);
             Controls.Add(label2);
             Controls.Add(txtUserName);
             Controls.Add(label1);
@@ -85,7 +96,8 @@
 
         private Label label1;
         private TextBox txtUserName;
-        private TextBox txtMatKhau;
+        private TextBox txtpassword;
         private Label label2;
+        private Button btnlogin;
     }
 }
