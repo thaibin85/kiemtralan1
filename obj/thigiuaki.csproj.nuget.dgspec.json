@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\congCu\\kiemtralan1\\thigiuaki.csproj": {}
+    "D:\\WebAPI\\kiemtralan1\\thigiuaki.csproj": {}
   },
   "projects": {
-    "E:\\congCu\\kiemtralan1\\thigiuaki.csproj": {
+    "D:\\WebAPI\\kiemtralan1\\thigiuaki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\congCu\\kiemtralan1\\thigiuaki.csproj",
+        "projectUniqueName": "D:\\WebAPI\\kiemtralan1\\thigiuaki.csproj",
         "projectName": "thigiuaki",
-        "projectPath": "E:\\congCu\\kiemtralan1\\thigiuaki.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "E:\\congCu\\kiemtralan1\\obj\\",
+        "projectPath": "D:\\WebAPI\\kiemtralan1\\thigiuaki.csproj",
+        "packagesPath": "C:\\Users\\binhd\\.nuget\\packages\\",
+        "outputPath": "D:\\WebAPI\\kiemtralan1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\binhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
